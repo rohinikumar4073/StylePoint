@@ -1,0 +1,384 @@
+body.shopping_firstpage{
+	background-image: url(../images/Page_Background.png);
+	background-repeat: repeat;
+  
+}
+
+.main_title{
+	font-family: arial;
+	margin-left: 40%;
+	margin-top: 1%;
+	
+}
+.main_div{
+	height: 543px;
+	background-image: url(../images/Backgound_Image.png);
+	background-repeat: no-repeat;
+	background-position: 25% 0px;
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+
+}
+.main_title h1{
+  font-size: 2em;
+}
+
+.body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-signin {
+	max-width: 600px;
+	border-top-width: 3px;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 3px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #333399;
+	border-right-color: #333399;
+	border-bottom-color: #333399;
+	border-left-color: #333399;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.main_div .containerhome .btn-block {
+  width: 41%;
+  margin-top: 16%;
+  margin-left: 8%;
+}
+
+.main_div .containerhome{
+	background-color: #4C48B4;
+	opacity: 0.94;
+	border-radius: 17px;
+	margin-top: 5%;
+	position: relative;
+    top: 75px;
+    margin-left:22%;
+    
+}
+
+@media (min-width: 1200px){
+.main_div .containerhome {
+
+}
+}
+.paulund_inner_modal_box p{
+	text-align: center;
+	font-size: 22px;
+	color: white;
+	font-family: arial;
+}
+
+.form-signin li{
+	list-style:none;
+	height:55px;
+}
+
+ .input{
+	float:right;
+}
+
+.submit{
+	margin-left: 29%;
+}
+.main_div_2 {
+
+background-repeat: no-repeat;
+background-position: 25% 0px;
+width: 80%;
+margin-right: 10%;
+margin-left: 10%;
+}
+.form-signin li label{
+	font-size: 1.5em;
+    color: white;
+	float: left;
+	width: 50%;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.clothes:hover{
+  	background:url("../images/Size_button_S_Green.png") no-repeat 50px;
+  	position:absolute;
+  	width: 113px;
+    height: 50px;
+}
+
+li.clothes-select{
+	margin-left: 0px;
+	margin-top: 90px;
+}
+
+.clothes {
+    background: url("../images/Size_button_S_Grey.png") no-repeat 50px;
+    position: absolute;
+    width: 113px;
+    height: 50px;
+}
+
+.male{
+	background: url("../images/Male_icon_geen.png") no-repeat;
+	position: absolute;
+	width: 143px;
+	height: 66px;
+	background-position: 25px;
+	cursor: pointer;
+}
+
+
+.female {
+	background: url("../images/Female_icon_green.png") no-repeat;
+	position: absolute;
+	width: 144px;
+	height: 66px;
+	background-position-x: 25px;
+	
+		cursor: pointer;
+	
+}
+
+li.gen label{
+	padding-top: 20px;
+}
+
+li.clothes-size{
+	margin-left: 30px
+}
+
+footer{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+}
+
+.gender{
+	width: 50%;
+	margin-left: 10px;
+}
+
+.sticky.containerhome{
+	height:50px;
+	margin-top: 0;
+	border:none;
+}
+
+.navbar{
+	height:50px !important;
+}
+
+.navbar-brand{
+	position:absolute;
+	left:67%;
+}
+
+.navbar-brand.price{
+	position:absolute;
+	left:86%;
+}
+
+.parent_div .col-sm-3 {
+    width: 284px;
+}
+
+.parent_div .sidebar-offcanvas{
+	background-color:rgb(204, 204, 204);
+	position: fixed;
+	top:50px;
+	height: 100%;
+}
+
+li.manshirt{
+	
+}
+.parent_div	.well{
+	background-color:transparent;
+	border:none;
+}
+
+li{
+	list-style: none;
+	padding-top:10px;
+}
+
+.cartbutton{
+    width: 136px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.parent_div .navbar-inverse {
+	background-color:rgb(0, 0, 51);
+}
+
+body.shopping_secondpage {
+	background-color:rgb(250, 240, 240);;
+}
+
+.manshirt{
+	
+position: relative;
+/* top: 50px; */
+left: -30px;
+height: 100%;
+width: 125%;
+/* background-color: rgb(0, 0, 51); */
+display: block;
+}
+
+.ladiesshirt{
+position: relative;
+/* top: 50px; */
+left: -30px;;
+left: 0;
+height: inherit;
+/* width: 100%; */
+/* background-color: rgb(0, 0, 51); */
+}
+.user-select{
+	width: 162px;
+    
+	/* display: block; */
+    
+	/* position: absolute; */
+    left: 0;
+}
+.user-select .lab{
+	width: 162px;
+    
+	position: relative;
+	height: 31px;
+ 
+    color: black;
+
+    
+	padding-left: 10px;
+    padding-top: 6px;
+	background-color: inherit;
+	font-size: 18px;
+	left: -25px;
+	bottom: 5px;
+}
+
+.user-select label{
+	width: 162px;
+    height: 31px;
+    background-color: rgb(0, 0, 51);
+    color: white;
+    
+	padding-left: 32px;
+    padding-top: 6px;
+}
+
+.pantsman{
+	position: relative;
+    
+	/* top: 230px; */
+    
+	left: -30px;
+    
+	/* height: 31px; */
+    
+	width: 120%;
+    
+	/* background-color: rgb(0, 0, 51); */
+	display: block;
+}.shoesman{
+	position: relative;
+    
+	left: -30px;
+    
+	/* left: 0; */
+    
+	/* height: 31px; */
+    
+	/* width:100%; */
+    
+	/* background-color: rgb(0, 0, 51); */
+}
+.pantsladies{
+position: relative;
+/* top: 50px; */
+left: -30px;    
+
+    left: 0;
+ 
+    
+	/* width:100%; */
+    
+	/* background-color: rgb(0, 0, 51); */
+}.shoesladies{
+position: relative;
+/* top: 50px; */
+left: -30px;    
+
+    left: 0;
+    width:100%;
+}
+ label{
+
+}
+
+#lab{
+	color: white;
+	padding-left: 30px;
+	padding-top: 6px;
+	 background-color: #000051;
+	 padding-right: 225px; 
+	padding-bottom: 6px;
+	width: 284px;
+}
+
+ ul{
+    margin-top: 15px;
+}
+
+.selectParent{
+    width:255px;
+    overflow:hidden;
+}
+
+.selectParent select{
+    width: 80px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 2px 2px 2px 2px;
+    background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") no-repeat 90% center;
+    overflow:hidden;
+    width: 109%;
+    background-color: rgb(242, 243, 229);
+}
+
